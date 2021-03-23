@@ -1,0 +1,213 @@
+@media(max-width: 769px){
+    /*********************************************/
+    /*   NAVIGATION BAR   */
+
+    .query-nav{
+        display: block;
+        margin-top: 8%;
+    }
+
+    .query-nav img{
+        display: block;
+        float: left;
+        margin-top: -8%;
+        margin-left: 4%;
+        width: 25%;
+    }
+
+    .style-nav{
+        display: none;
+    }
+
+    .style-nav img{
+        display: none;
+    }
+
+    /*********************************************/
+    /*   HEADER   */
+
+    .header-content h1{
+        font-size: 170%;
+        margin-top: 24%;
+    }
+
+    .header-content img{ display: none; }
+
+    /*********************************************/
+    /*   SHOWCASE   */
+
+    #showcase{ padding-top: 31%; }
+
+    #showcase h2{ font-size: 160%; }
+
+    #showcase h3{ font-size: 140%; }
+
+    #showcase .mr{ padding-right: 4%; }
+
+    /*********************************************/
+    /*   BLOG   */
+
+    #blog{ padding-top: 32%; }
+
+    #blog h2{ font-size: 140%; }
+
+    #blog h3{ font-size: 130%; }
+
+    #blog h4{ font-size: 120%; }
+
+    #blog img{ display: none; }
+
+    #blog .row{
+        width: 95%;
+        margin: auto;
+    }
+
+    /*********************************************/
+    /*   FEEDBACK   */
+
+    #feedback h2{ font-size: 140%; }
+
+    #feedback .my-form{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /*********************************************/
+    /*   NEWSLETTER   */
+
+    #newsletter h2{ font-size: 150%; margin-bottom: 20px;}
+
+    #newsletter input{ margin-left: 0; margin-bottom: 5%; }
+
+    #newsletter button{ width: 80%; }
+
+    #newsletter .row{
+        width: 95%;
+        margin: auto;
+    }
+
+
+    /*********************************************/
+    /*   CONTACT   */
+
+    #contact{ padding: 30% 0 4% 0; }
+
+    #contact h2{ font-size: 130%; }
+
+    #contact h3{
+        font-size: 120%;
+        text-align: center;
+    }
+
+    #contact .contact{
+        width: 95%;
+        margin: auto;
+    }
+
+}
+
+
+@media(max-width: 480px){
+
+    .query-nav{
+        display: block;
+        margin-top: 8%;
+    }
+
+    .query-nav img{
+        display: block;
+        float: left;
+        margin-top: -8%;
+        width: 35%;
+    }
+
+    .style-nav{
+        display: none;
+    }
+
+    .style-nav img{
+        display: none;
+    }
+
+    /*********************************************/
+    /*   HEADER   */
+
+    .header-content h1{
+        font-size: 170%;
+        margin-top: 30%;
+    }
+
+    .header-content img{ display: none; }
+
+    /*********************************************/
+    /*   SHOWCASE   */
+
+    #showcase{ padding-top: 37%; }
+
+    #showcase .container{
+        width: 90%;
+        margin: auto;
+    }
+
+    #showcase h2{ font-size: 160%; }
+
+    #showcase h3{ font-size: 140%; }
+
+    /*********************************************/
+    /*   BLOG   */
+
+    #blog{ padding-top: 38%; }
+
+    #blog h2{ font-size: 140%; }
+
+    #blog h3{ font-size: 130%; }
+
+    #blog h4{ font-size: 120%; }
+
+    #blog img{ display: none; }
+
+    /*********************************************/
+    /*   FEEDBACK   */
+
+    #feedback h2{ font-size: 140%; }
+
+    #feedback .my-form{
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    /*********************************************/
+    /*   NEWSLETTER   */
+
+    #newsletter h2{ font-size: 150%; margin-bottom: 20px; }
+
+    #newsletter input{ margin-left: 0; }
+
+
+    /*********************************************/
+    /*   CONTACT   */
+
+    #contact{ padding: 37% 0 4% 0; }
+
+    #contact h2{ font-size: 130%; }
+
+    #contact h3{
+        font-size: 120%;
+        text-align: center;
+    }
+
+
+    /*********************************************/
+    /*   FOOTER   */
+
+    footer ul li a{ margin-left: 10px; }
+
+}
+
+
+@media(max-width: 300px){
+    .query-nav{
+        display: none;
+    }
+}
